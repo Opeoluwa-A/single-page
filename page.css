@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family:  "[Poppins] (https://fonts.google.com/specimen/Poppins)";
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%);
+  background-image: none;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+}
+h1,p{
+  color:hsl(249, 41%, 97%);
+}
+h1{
+  font-size: 50px;
+  font-weight: 700px;
+}
+.box1, .box2 {
+  width: 40%;
+  margin: 20px;
+}
+
+.box20{
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
+.box20 p {
+  text-align: center;
+  padding: 10px 0;
+  
+}
+.box21 p {
+  color:hsl(246, 25%, 77%);
+  font-size: 10px;
+}
+
+.box21{
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.box2  {
+  height: 500px;
+
+}
+input{
+  height: 50px;
+  width:100%;
+  margin: 10px  0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+.main{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+button{
+  background-color: hsl(150, 59%, 51%);
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin: 10px 0;
+  padding: 1px 0;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0px 2px 0px hsla(154, 74%, 15%, 0.548);
+}
+@media screen and (max-width:1440) {
+  .main {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  p{
+    text-align:center;
+  }
+  .main{
+    padding: px;
+  }  
+}
